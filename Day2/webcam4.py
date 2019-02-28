@@ -2,14 +2,14 @@ import cv2
 
 def main():
 
-	windowName = "Live Video Feed"
+	windowName = "Live Video Feed Capture"
 	cv2.namedWindow(windowName)
 	cap = cv2.VideoCapture(0)
 
-	filename = '/home/neha/Desktop/OpenCV/OUTPUT/'
+	filename = '/home/neha/Desktop/OpenCV/OUTPUT/output.avi'
 	codec = cv2.VideoWriter_fourcc('X', 'V', 'I', 'D')
 	framerate = 30
-	resolution = (640,480)
+	resolution = (640, 480)
 	VideoFileOutput = cv2.VideoWriter(filename, codec, framerate, resolution)#syntax
 
 	if cap.isOpened():
