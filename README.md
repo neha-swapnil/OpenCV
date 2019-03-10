@@ -15,4 +15,6 @@ Thresholding and Segmentation:- as the name suggests.
 
 Day5(2):- Kernel/convolutions, filters and blurs.
 
+Day6:- Quantization and restoration.
+
 MiniProjects:- as the name suggests.
