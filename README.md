@@ -17,4 +17,6 @@ Day5(2):- Kernel/convolutions, filters and blurs.
 
 Day6:- Quantization and restoration.
 
+Day7:- Histogram, Morphological Operations and contouring.
+
 MiniProjects:- as the name suggests.
